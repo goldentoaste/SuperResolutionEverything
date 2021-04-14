@@ -5,7 +5,7 @@ Run superRes.py and follow prompts to use.
 
 
 # Dependency & setup
-This relies on (this)[https://github.com/tsurumeso/waifu2x-chainer]. Download the entire projects folder, add waifu2x.py to system environment PATH, and then setup .py file association with python.exe
+This relies on [waifu2x](https://github.com/tsurumeso/waifu2x-chainer). Download the entire projects folder, add waifu2x.py to system environment PATH, and then setup .py file association with python.exe
 
 Then use pip to install chainer and cupy-cuda112, also, get the lastest Cuda toolkit from nvidia to enable gpu acceleration. Cpu only too slow to be useful(~4minutes/image).
 
